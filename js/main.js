@@ -109,7 +109,7 @@ function Rgauche() {
 
         transform: 'rotateX(180deg)',
         scrollTrigger: {
-            trigger: '##cercle7',
+            trigger: '#cercle7',
             start: 'top top',
             end: 'bottom top',
             scrub: true
