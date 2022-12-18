@@ -165,7 +165,7 @@ fade.addEventListener("click", function () { //quand on appuis sur le btn
 var bcolor = document.getElementById('color');
 
 bcolor.addEventListener("click", function () {
-    console.log('oui');
+    
     color();
     for (var i = 0; i < cercle.length; i++) {
         if (cercle[i].classList.contains('cercle')) {
@@ -182,7 +182,7 @@ var bdroite = document.getElementById('droite');
 
 bdroite.addEventListener("click", function () {
 
-    console.log('oui');
+    
 
     droite();
     for (var i = 0; i < cercle.length; i++) {
@@ -197,7 +197,7 @@ var bgauche = document.getElementById('gauche');
 
 bgauche.addEventListener("click", function () {
 
-    console.log('oui');
+    
 
     gauche();
     for (var i = 0; i < cercle.length; i++) {
@@ -212,7 +212,7 @@ var bhaut = document.getElementById('haut');
 
 bhaut.addEventListener("click", function () {
 
-    console.log('oui');
+    
 
     haut();
     for (var i = 0; i < cercle.length; i++) {
@@ -228,7 +228,7 @@ var bbas = document.getElementById('bas');
 
 bbas.addEventListener("click", function () {
 
-    console.log('oui');
+    
 
     bas();
     for (var i = 0; i < cercle.length; i++) {
@@ -243,7 +243,7 @@ var bRgauche = document.getElementById('Rgauche');
 
 bRgauche.addEventListener("click", function () {
 
-    console.log('oui');
+    
     Rgauche();
     for (var i = 0; i < cercle.length; i++) {
         if (cercle[i].classList.contains('cercle')) {
@@ -257,7 +257,7 @@ var bRdroite = document.getElementById('Rdroite');
 
 bRdroite.addEventListener("click", function () {
 
-    console.log('oui');
+    
     Rdroite();
     for (var i = 0; i < cercle.length; i++) {
         if (cercle[i].classList.contains('cercle')) {
@@ -271,7 +271,7 @@ bRdroite.addEventListener("click", function () {
 var bagrandir = document.getElementById('agrandir');
 
 bagrandir.addEventListener("click", function () {
-    console.log('oui');
+    
     agrandir();
     for (var i = 0; i < cercle.length; i++) {
         if (cercle[i].classList.contains('cercle')) {
@@ -284,7 +284,7 @@ bagrandir.addEventListener("click", function () {
 var bretrecir = document.getElementById('retrecir');
 
 bretrecir.addEventListener("click", function () {
-    console.log('oui');
+    
     retrecir();
     for (var i = 0; i < cercle.length; i++) {
         if (cercle[i].classList.contains('cercle')) {
@@ -293,3 +293,4 @@ bretrecir.addEventListener("click", function () {
     }
     document.getElementById("cercle10").classList.add("active");
 });
+
